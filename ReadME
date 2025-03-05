@@ -1,1 +1,63 @@
-Readme
+🎬 MovieApp
+
+MovieApp is a modern iOS application that allows users to browse, search, and favorite movies. It follows the MVVM architecture and utilizes the Combine framework for data binding and reactivity.
+
+📌 Features
+
+🎞️ Fetch and display popular movies.
+
+🔍 Search movies dynamically.
+
+❤️ Add/remove movies from favorites.
+
+📜 Detailed movie information.
+
+🎨 Modern and minimalistic UI.
+
+🛠️ Tech Stack
+
+Language: Swift
+
+Frameworks: UIKit, Combine
+
+Architecture: MVVM
+
+Networking: URLSession, Combine
+
+📂 Project Structure
+
+MovieApp/
+│── Model/            # Data models
+│── ViewModel/        # Business logic and API calls
+│── Views/            # UI components and ViewControllers
+│── Services/         # API and Network Layer
+│── Extensions/       # Reusable extensions
+│── Resources/        # Assets, fonts, etc.
+│── Tests/            # Unit tests
+
+🚀 Installation
+
+Clone the repository:
+
+git clone git@github.com:iosdevashu177singh/movieapp.git
+
+Open MovieApp.xcodeproj in Xcode.
+
+Build and run the project on a simulator or device.
+
+📡 API Integration
+
+This app fetches data from The Movie Database (TMDB) API.
+Make sure to add your API Key in APIService.swift:
+
+private let apiKey = "9a7243213d79e4344f8f16ce3b6098cf"
+you can use your own.
+
+🧪 Unit Testing
+
+Run unit tests using:
+
+Cmd + U (in Xcode)
+
+Test cases are included for API calls and ViewModel logic.
+
