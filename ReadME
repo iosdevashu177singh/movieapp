@@ -39,11 +39,21 @@ MovieApp/
 
 Clone the repository:
 
-git clone git@github.com:iosdevashu177singh/movieapp.git
+git clone https://github.com/iosdevashu177singh/movieapp.git
 
-Open MovieApp.xcodeproj in Xcode.
+Navigate to the project directory:
 
-Build and run the project on a simulator or device.
+cd movieapp
+
+Install dependencies using CocoaPods:
+
+pod install
+
+Open the .xcworkspace file:
+
+open MovieApp.xcworkspace
+
+Build and run the project in Xcode.
 
 📡 API Integration
 
